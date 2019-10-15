@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+        tools:srcCompat="@tools:sample/avatars"
+        android:contentDescription="@string/kaitlyn_horner" />
+
+    <TextView
+        android:id="@+id/UserName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="0dp"
+
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="@string/textview"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/UserBalance"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="@string/textview"
+        android:textColor="@color/betAmount"
+        android:textSize="18sp"
+        tools:text="Balance" />
+
+
+</LinearLayout>

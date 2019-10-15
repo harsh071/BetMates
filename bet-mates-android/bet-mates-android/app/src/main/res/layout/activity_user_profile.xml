@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.UserProfile"
+    android:background="#FFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/border">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="175dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_person_white_24dp"
+                android:contentDescription="profilepic" />
+
+            <TextView
+                android:id="@+id/UserName"
+                app:fontFamily="sans-serif-light"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:text="Users Name"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:textSize="60sp"/>
+
+            <TextView
+                android:id="@+id/UserBalance"
+                app:fontFamily="sans-serif-light"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Users Balance"
+                android:text="TextView"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="2dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="2dp">
+
+        <Button
+            android:id="@+id/editProfileText"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="editProfile"
+            android:text="Edit Profile"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/HistoryOfBets"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="viewHistory"
+            android:text="@string/bet_history"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="viewFriends"
+            android:text="@string/friends"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="2dp">
+
+        <TextView
+            android:layout_height="20dp"
+            android:layout_width="match_parent"
+            android:text="Current Bets:"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/currentBets"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">BetMates</string>
+    <string name="welcome_to_betmates">Welcome to BetMates</string>
+    <string name="BetMates">BetMates</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="history_of_placed_bets">History Of Placed Bets</string>
+    <string name="current_bets">Current Bets</string>
+    <string name="bet_history">Bet History</string>
+    <string name="history_of_bets">History of Bets</string>
+    <string name="title_activity_current_bets">CurrentBets</string>
+    <string name="your_current_bets">Your Current Bets</string>
+    <string name="action_settings">action_settings</string>
+    <string name="kaitlyn_horner">Kaitlyn Horner</string>
+    <string name="friends">Friends</string>
+    <string name="user_profile">User Profile</string>
+    <string name="user_money">$55.32</string>
+    <string name="betName_hint">Bet Name</string>
+    <string name="bet_description_hint">Bet Description</string>
+    <string name="bet_amount_hint">Bet Amount</string>
+    <string name="create_bet_activity_button">Create Bet</string>
+    <string name="kaitlyn_honor">Kaitlyn Honor</string>
+    <string name="_11_hrs">11 hrs</string>
+    <string name="todo">TODO</string>
+    <string name="this_is_a_bet">This is a Bet!</string>
+    <string name="image">Image</string>
+    <string name="profile_picture">Profile picture.</string>
+    <string name="image_to_post">Image to post.</string>
+    <string name="place_bet">Place Bet</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="bet_amount">Bet Amount</string>
+    <string name="bet_description">Bet Description</string>
+    <string name="people_betting">People Betting:</string>
+    <string name="bet_creator">Bet Creator</string>
+    <string name="bet_name">Bet Name</string>
+    <string name="back">Back</string>
+    <string name="like">Like</string>
+    <string name="profilepicture">ProfilePicture</string>
+    <string name="home">Home</string>
+    <string name="create_bet">Create Bet!</string>
+    <string name="amount">AMOUNT</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="click_here_to_sign_up">Click here to sign up.</string>
+    <string name="login">Login</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="your_default_bet_balance_will_be_10">Your Default Bet Balance will be $10</string>
+    <string name="please_enter_your_age">Please Enter Your Age</string>
+    <string name="please_enter_password">Please Enter Password</string>
+    <string name="please_enter_your_name">Please Enter Your Name</string>
+    <string name="click_here_to_login">Click Here To Login</string>
+    <string name="please_enter_password1">Please Enter Password.</string>
+    <string name="please_confirm_password1">Please Confirm Password.</string>
+    <string name="sign_up">SIGN UP</string>
+
+    <string name="warning"></string>
+    <string name="fatalError"></string>
+
+
+</resources>

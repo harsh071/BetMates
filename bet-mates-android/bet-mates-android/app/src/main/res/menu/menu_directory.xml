@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/profile"
+        android:title="Profile"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/currBets"
+        android:title="@string/current_bets"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/betHist"
+        android:title="@string/bet_history"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/logOut"
+        android:title="Log Out"
+        app:showAsAction="never" />
+
+
+</menu>

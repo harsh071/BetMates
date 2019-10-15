@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.FriendSelector">
+
+    <TextView
+        android:id="@+id/BetMates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="46sp"
+        app:fontFamily="sans-serif-light"
+        tools:text="BetMates" />
+
+    <Button
+        android:id="@+id/user_selector_add_friend_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="user_selector_add_friend_buttonOnClick"
+        android:text="Add Friends" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listFriendSelector"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

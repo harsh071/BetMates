@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BetMates</title>
+    <link>https://example.edu/</link>
+    <description>Recent content on BetMates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.edu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Our Vision</title>
+      <link>https://example.edu/posts/vision/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.edu/posts/vision/</guid>
+      <description>Gottem go gottem</description>
+    </item>
+    
+  </channel>
+</rss>
