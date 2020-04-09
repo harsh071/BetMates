@@ -1,7 +1,8 @@
 # BetMates Vision Statement
 ---
 
-BetMates will be used as a social media platform for virtual betting. It will allow users to create and bet with their friends or against them where they can partake in friendly competition. Similar to many social media apps, BetMates will allow users to create a profile, have friends, and browse other users profiles. Do you think that your friend can pass their class? Create a bet and invite your friends to join in on the fun! 
+BetMates will be used as a social media platform for virtual betting. It will allow users to create and bet with their friends or against them where they can partake in friendly competition.
+Similar to many social media apps, BetMates will allow users to create a profile, have friends, and browse other users profiles. Do you think that your friend can pass their class? Create a bet and invite your friends to join in on the fun! 
 
 This application is targeting the Millennials and Generation Z age demographics. These users are surrounded by technology and are accustomed to the various social media applications that already exist. BetMates is envisioned as a phone application where users can place bets at home or while they’re with their friends. Similar to current social media platforms, there also exists many different sports betting and gambling applications. This application is unique since it allows people to bet not only against each other but also on anything they want.
 
